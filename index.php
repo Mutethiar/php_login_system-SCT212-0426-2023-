@@ -14,13 +14,18 @@
         <?php }  ?>      
         <label>Username</label>
         <input type="text" name="user_name" placeholder="User_Name"><br>
+        
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email"><br>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phone_number" placeholder="Phone Number"><br>
 
         <label>Password</label>
         <input type="password" name="password" placeholder="Password"><br>
 
         <button type="submit">Login</button>
     </form>
-
     
 </body>
 </html>
